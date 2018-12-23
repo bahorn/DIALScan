@@ -38,6 +38,9 @@ def fetch_dial_applications():
     output = {}
     for _, item in predata.items():
         output[item['name']] = item['company']
+
+    # Add key word apps like system (introduced in the 2.2 spec)
+    output['system'] = 'DIAL SPEC'
     return output
 
 
