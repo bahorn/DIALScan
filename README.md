@@ -36,7 +36,7 @@ MIT, see `LICENSE`.
 
 Dan Krause's SSDP implementation is used, with some changes to port it to
 Python3: https://gist.github.com/dankrause/6000248
-(MIT License as well)
+(Under Apache 2.0)
 
 ## References
 
